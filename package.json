@@ -18,9 +18,12 @@
   },
   "homepage": "https://github.com/Ganeshshinde-2003/WEB3.0-JOURNEY#readme",
   "dependencies": {
+    "dotenv": "^16.3.1",
     "ethers": "5.7.2",
     "fs-extra": "^11.1.1",
     "node": "^21.1.0",
+    "prettier": "^3.0.3",
+    "prettier-plugin-solidity": "^1.1.3",
     "solc": "^0.8.7-fixed"
   }
 }
