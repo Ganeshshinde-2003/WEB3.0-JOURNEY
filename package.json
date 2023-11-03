@@ -1,0 +1,26 @@
+{
+  "name": "ethers-simple-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "deploy.js",
+  "scripts": {
+    "compile": "npx solc --bin --abi --include-path node_modules/ --base-path . ./SimpleStorage.sol"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ganeshshinde-2003/WEB3.0-JOURNEY.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ganeshshinde-2003/WEB3.0-JOURNEY/issues"
+  },
+  "homepage": "https://github.com/Ganeshshinde-2003/WEB3.0-JOURNEY#readme",
+  "dependencies": {
+    "ethers": "5.7.2",
+    "fs-extra": "^11.1.1",
+    "node": "^21.1.0",
+    "solc": "^0.8.7-fixed"
+  }
+}

@@ -1,0 +1,8 @@
+// TO CREATE A ABI AND BIN FOR COTRACT
+
+npx solc --bin --abi --include-path node_modules/ --base-path . ./
+SimpleStorage.sol 
+
+// TO INSTALL SOLC 
+npm install -g solc   
+
