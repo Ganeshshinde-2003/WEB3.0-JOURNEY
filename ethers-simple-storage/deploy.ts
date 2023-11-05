@@ -2,13 +2,14 @@ const { ethers } = require("ethers")
 const fs = require("fs-extra")
 require("dotenv").config()
 
+
 async function main() {
   //compile them in our code
   //compile them separately
   const provider = new ethers.providers.JsonRpcProvider(process.env.LOCALHOST)
   // const encryptedJson = fs.readFileSync("./.encryptdKey.json", "utf-8");
 
-  const wallet = new ethers.Wallet(process.env.PRIVATE_KEY, provider)
+  const wallet = new ethers.Wallet(process.env.PRIVATE_KEY!, provider)
 
   // let wallet = new ethers.Wallet.fromEncryptedJsonSync(
   //   encryptedJson,
