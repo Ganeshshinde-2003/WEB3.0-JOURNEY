@@ -13,7 +13,7 @@
     "@nomiclabs/hardhat-etherscan": "^3.1.7",
     "dotenv": "^16.3.1",
     "ethers": "^6.8.1",
-    "hardhat": "^2.19.0",
+    "hardhat": "^2.19.1",
     "prettier": "^3.0.3",
     "prettier-plugin-solidity": "^1.1.3"
   }
